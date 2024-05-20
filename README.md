@@ -16,7 +16,7 @@ Poisoning attacks in social media trends are critical problems in web community.
 
 ### 😈Self-generated Attacker Agent
 
-<img src="./assets/attacker.png">
+![figure3](./assets/attacker.png)
 
 ## 🧰Our Contributions
 
