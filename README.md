@@ -2,31 +2,31 @@
 
 ## 📝Introduction
 
-Poisoning attacks in social media trends are critical problems in the web community. Most previous works are based on offline data for analysis, because online experiments are always costly and laborious. Recently, large language models (LLMs) have shown their ability to simulate human behaviors, which are capable of supporting online experiments in an economical and efficient way. In this paper, we propose **TrendSim**, an autonomous agent simulation method based on LLMs, to understand poisoning attacks in social media trends. We design a simulation framework that aligns with real platforms, and develop LLM-based autonomous agents to simulate the psychology and behaviors of users. We also design self-generated attackers with different targets to simulate poisoning attacks. To verify the effectiveness of TrendSim, we further evaluate the alignment between simulation and real circumstances. Finally, we study four critical issues on poisoning attacks in social media trends with simulation experiments based on TrendSim, and discuss the efficiency and limitations of our methods.
+Trending topics have become a significant part of modern social media, attracting users to participate in discussions of breaking events. However, they also bring in a new channel for poisoning attacks, resulting in negative impacts on society. Therefore, it is urgent to study this critical problem and develop effective strategies. In this paper, we propose TrendSim, an LLM-based multi-agent system to simulate trending topics in social media under poisoning attacks. Specifically, we create a simulation environment for trending topics that incorporates a time-aware interaction mechanism, centralized message dissemination, and an interactive system. Moreover, we develop LLM-based humanoid agents to simulate users in social media, and propose prototype-based attackers to replicate poisoning attacks. Besides, we evaluate TrendSim from multiple aspects to validate its effectiveness. Based on TrendSim, we conduct simulation experiments to study four critical problems about poisoning attacks on trending topics.
 
 ## 📌Features of TrendSim
 
-### 📱Simulator of Social Media Trends
+### 📱Simulator of Trending Topics in Social Media
 
 ![figure1](./assets/framework.png)
 
-### 👾LLM-based Autonomous User Agent
+### 👾LLM-based User Agent
 
 ![figure3](./assets/user_agent.png)
 
-### 😈Self-generated Attacker Agent
+### 😈Prototype-based Attacker Agent
 
 ![figure3](./assets/attacker.png)
 
 ## 🧰Our Contributions
 
-- We propose the **TrendSim**, an autonomous agent simulation to study poisoning attacks in social media trends. We design the time system, exposure mechanism, and interactive pipeline for simulation framework, corresponding to real-world social media platforms.
+- We propose an LLM-based multi-agent system, named TrendSim, to simulate trending topics in social media under poisoning attacks. We design the time-aware interaction mechanism, centralized message dissemination, and interactive multi-agent system to model trending topics in social media.
 
-- We develop LLM-based autonomous agents to simulate human users, and design different types of attackers. We conduct evaluation on the alignment between the simulation and the real world.
+- We develop LLM-based humanoid agents with a perception, a memory, and an action module to simulate users in social media platforms. We create prototype-based attackers to generate various poisoning attacks in our simulation.
 
-- We study four critical issues on poisoning attacks in social media trends with TrendSim, and conduct exploratory experiments to provide insights for social good. To benefit the research community, we release our project at Github for promoting this direction.
+- We conduct extensive evaluations of our simulation framework. Based on TrendSim, we study four critical problems of poisoning attacks on trending topics in social media. In order to benefit the research community, we release our project.
 
-## 🚀Run TrendingSim
+## 🚀Run TrendSim
 
 ### 💻1 Prepare for the simulation.
 
