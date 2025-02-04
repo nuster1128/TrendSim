@@ -1,4 +1,4 @@
-# TrendSim
+# TrendSim: Simulating Trending Topics in Social Media Under Poisoning Attacks with LLM-based Multi-agent System
 
 ## 📝Introduction
 
@@ -92,3 +92,18 @@ python run.py -tweet_index 6 -record_path output/record_tweet_14_mild.json -degr
 ```
 
 Finally, you can check the records in your output path.
+
+## 🔗 Cite
+
+```
+@article{zhang2024trendsim,
+  title={TrendSim: Simulating Trending Topics in Social Media Under Poisoning Attacks with LLM-based Multi-agent System},
+  author={Zhang, Zeyu and Lian, Jianxun and Ma, Chen and Qu, Yaning and Luo, Ye and Wang, Lei and Li, Rui and Chen, Xu and Lin, Yankai and Wu, Le and others},
+  journal={arXiv preprint arXiv:2412.12196},
+  year={2024}
+}
+```
+
+## 📧 Contact
+
+If you have any questions, please feel free to contact us via `zeyuzhang@ruc.edu.cn`.
